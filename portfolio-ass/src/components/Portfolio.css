@@ -3,7 +3,7 @@ body {
   color: black;
   transition: background-color 0.3s, color 0.3s;
 }
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 32px;
@@ -16,7 +16,7 @@ body {
 /* Navbar */
 .navbar {
   display: flex;
-  position:sticky;
+  position: sticky;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
@@ -25,7 +25,7 @@ body {
   padding: 20px, 32px;
   color: black;
 }
-.name{
+.name {
   padding: 16px;
   font-weight: 700;
   font-size: 18px;
@@ -42,7 +42,7 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-.navbar  a{
+.navbar a {
   color: #000;
   text-decoration: none;
 }
@@ -56,8 +56,8 @@ body {
   font-size: 1.5rem;
   transition: transform 0.3s ease;
 }
-.theme-toggle img{
-margin-left: 32px;
+.theme-toggle img {
+  margin-left: 32px;
 }
 
 body.dark-theme {
@@ -95,10 +95,8 @@ body.dark-theme .social-icons svg {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    
   }
   .social-icons,
-
   .email-vertical {
     display: none;
     text-decoration: none;
@@ -160,7 +158,7 @@ body.dark-theme .social-icons svg {
 }
 
 .social-icons {
-  position:fixed;
+  position: fixed;
   left: 24px;
   transform: translateY(-50%);
   display: flex;
@@ -201,14 +199,14 @@ body.dark-theme .social-icons svg {
   z-index: 1;
 }
 
-.about-section{
+.about-section {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 60px, 0;
   position: relative;
 }
-.about-content{
+.about-content {
   display: flex;
   flex-direction: row;
   gap: 60px;
@@ -216,17 +214,17 @@ body.dark-theme .social-icons svg {
   align-items: center;
   flex-wrap: wrap;
 }
-.about-left{
+.about-left {
   flex: 1;
   text-align: center;
 }
 
-.hand-illustration{
+.hand-illustration {
   width: 250px;
   margin-bottom: 20px;
-flex-shrink: 0;
+  flex-shrink: 0;
 }
-.about-social-icons{
+.about-social-icons {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,28 +233,28 @@ flex-shrink: 0;
   font-size: 20px;
 }
 
-.about-text{
+.about-text {
   flex: 2;
   max-width: 600px;
 }
-.about-text h2{
+.about-text h2 {
   font-size: 32px;
   margin-bottom: 10px;
 }
-.big-letter{
+.big-letter {
   font-size: 50px;
   font-weight: bold;
 }
-.smiley{
+.smiley {
   font-size: 24px;
 }
-.about-text hr{
+.about-text hr {
   border: none;
   border-top: 2px solid #222;
   width: 50%;
   margin: 15px 0 30px 0;
 }
-.about-text p{
+.about-text p {
   margin-bottom: 15px;
   line-height: 1.6;
 }

@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import moonIcon from "../assets/Moon Black.svg";
 import sunIcon from "../assets/Group.svg";
-import rectangle from "../assets/Rectangle.png"
+import rectangle from "../assets/Rectangle.png";
 import "./Portfolio.css";
 import Logo from "../assets/Logo.svg";
 import profilePic from "../assets/Profile.svg";
@@ -90,7 +90,9 @@ const Portfolio = () => {
           <img src={profilePic} alt="Anish" />
         </div>
 
-        <div className="email-vertical right">sinhaanishkumar@outlook.com -</div>
+        <div className="email-vertical right">
+          sinhaanishkumar@outlook.com -
+        </div>
       </div>
       <section id="about" className="about-section container">
         <div className="about-left">
